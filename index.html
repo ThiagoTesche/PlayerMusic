@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Music</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/103-fundo-claro-transparente.png" class="logo-vag">
+        <div class="container-left">
+            <div class="image" id="image"><img id="imagej" src="" alt=""></div><!--/image-->
+            <div class="info">
+                <h2 class="singers"></h2>
+                <h4 class="musicName"></h4>
+            </div><!--/info-->
+            <div class="player"></div>
+            <div class="player-timeline">
+                <div class="player-timeline-control"></div>
+            </div><!--/player-timeline-->
+            <div class="top-bar">
+                <div class="player-controls">
+                    <div class="player-prev"><img src="images/next.png" alt=""></div>
+                    <div class="player-play"><img src="images/play.png" alt=""></div>
+                    <div class="player-pause"><img src="images/pause.png" alt=""></div>
+                    <div class="player-stop"><img src="images/stop.png" alt=""></div>
+                    <div class="player-next"><img src="images/next.png" alt=""></div>
+                </div><!--/player-controls-->
+            </div><!--/top-bar-->
+        </div><!--/container-left-->
+        <div class="container-right">
+            <p><strong>Next Song</strong></p>
+            <div class="wraper">
+                <div class="image-left"><img class="imageLeft1" src="" alt=""></div>
+                <div class="text">
+                    <div class="title"></div>
+                    <div class="author"></div>
+                </div>
+            </div><!--/wraper-->
+            
+        </div><!--/container-right-->
+    </div><!--/container-->
+    <input type="button" class="btn" value="Letra"><input type="button" value="Traduzir" class="translate"><input type="button" value="Original" class="original">
+    <div class="letter" id="letter"></div>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/JavaScript" src="js/plugins/jplayer/dist/jplayer/jquery.jplayer.min.js"></script>
+    <script src="JS/default.js"></script>
+</body>
+</html>
